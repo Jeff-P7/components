@@ -1,0 +1,39 @@
+import PropTypes from 'prop-types';
+import IHead from './head';
+import type { IPropDefines } from '../../../shared';
+
+interface IProps extends IPropDefines {
+  type: { [key in keyof IHead]: any };
+  default: IHead;
+  argType: { [key in keyof IHead]: any };
+}
+
+const {
+  array,
+  arrayOf,
+  bool,
+  func,
+  node,
+  number,
+  oneOf,
+  oneOfType,
+  shape,
+  string,
+} = PropTypes;
+
+export const HeadProps: IProps = {
+  type: {
+    title: string,
+    description: string,
+  },
+  default: {
+    title: '',
+    description: '',
+  },
+  argType: {
+    title: 'text',
+    description: 'text',
+  },
+};
+
+export default HeadProps;
