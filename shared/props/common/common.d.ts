@@ -17,4 +17,4 @@ export interface ICommon extends ISpacing {
   // styles?: React.CSSProperties;
 }
 
-export default ICommon;
+// export default ICommon;
