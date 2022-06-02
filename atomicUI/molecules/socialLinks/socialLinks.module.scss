@@ -1,0 +1,157 @@
+/**
+* Example of property order and category naming convention for comment
+********************************************************************************
+* .class {
+*  //________________________- Font & Text
+*    text-align: val;
+*    text-shadow: val;
+*  //________________________- Color & Background
+*    background-color: val;
+*    color: val;
+*    opacity: val;
+*  //________________________- Box
+*    height: val;
+*    width: val;
+*    border-radius: val;
+*  //________________________- Positioning
+*    position: absolute;
+*    bottom: 0;
+*  //________________________- List
+*    property: val;
+*  //________________________- Table
+*    property: val;
+*  //________________________- Miscellaneous
+*    property: val;
+*  //________________________- Effect
+*    property: val;
+* }
+*/
+
+// Imports ____________________________________________________________________-
+//@import './../../../styles/_palette.scss';
+
+/*******************************************************************************
+* Default |
+*********/
+@use "sass:math";
+
+.social {
+  display: block;
+  height: 310px;
+  width: 50px;
+}
+
+.social__link {
+  $padding-y: 10px;
+  font-size: 1.5rem;
+  position: relative;
+  padding: $padding-y;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+
+
+  &::after {
+    content: '';
+    position: absolute;
+    border: 2px solid white;
+    height: 2.5rem;
+    width: 2.5rem;
+    left: 0;
+    bottom: math.div($padding-y, 2);
+    right: 0;
+    margin: 0 auto;
+    border-radius: 25px;
+    transform: scale(0);
+  }
+
+  h6 {
+    display: inline-block;
+    position: absolute;
+    // bottom: ($padding-y / 2);
+    bottom: math.div($padding-y, 2);
+    left: 0;
+    opacity: 0;
+  }
+}
+
+.social > h6 {
+  white-space: nowrap;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  transform: rotate(-90deg);
+  color: black;
+  margin: auto;
+}
+
+// Animation ______________________________________________________________________
+
+
+.social__link,
+.social__link:hover {
+  $transitionDuration: 250ms;
+
+  h6 {
+    transition-property: opacity, left;
+    transition-duration: $transitionDuration;
+    transition-timing-function: ease-in-out;
+  }
+
+  &::after {
+    transition: transform $transitionDuration ease-in-out;
+  }
+}
+
+// Active ______________________________________________________________________
+
+// Hover ______________________________________________________________________-
+
+.social__link:hover {
+  h6 {
+    left: 50px;
+    opacity: 1;
+  }
+
+  &::after {
+    transform: scale(1);
+  }
+}
+
+// Layouts ____________________________________________________________________-
+
+// Media Sizes ________________________________________________________________-
+
+/*******************************************************************************
+  * XS |
+  ****/
+
+//@include mq('xs') {
+//
+//}
+
+/*******************************************************************************
+  * SM |
+  ****/
+
+//@include mq('sm') {
+//
+//}
+
+/*******************************************************************************
+  * MD |
+  ****/
+
+//@include mq('md') {
+//
+//}
+
+/*******************************************************************************
+  * LG |
+  ****/
+
+//@include mq('lg') {
+//
+//}
