@@ -1,6 +1,6 @@
 import type { IconContext } from 'react-icons';
 import { IconDictTypes } from './icon.dict';
-import { ICommon, TColor, TFontSize } from '../../../shared';
+import { ICommon, TColor, TFontSize } from '../../../global';
 
 const IconDictTypeOf = [...IconDictTypes] as const;
 export type TIconDict = typeof IconDictTypeOf[number] | string;

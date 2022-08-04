@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import IIcon from './icon';
-import { CommonProps, FontProps, ColorProps } from '../../../shared';
-import type { IPropDefines } from '../../../shared';
+import { CommonProps, FontProps, ColorProps } from '../../../global';
+import type { IPropDefines } from '../../../global';
 import { IconDictTypes } from './icon.dict';
 
 interface IProps extends IPropDefines {

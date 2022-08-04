@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import ITemplate from './template';
-import type { IPropDefines } from '../../shared';
-import { CommonProps } from '../../shared';
+import type { IPropDefines } from '../../global';
+import { CommonProps } from '../../global';
 
 /**
  * Property categorical types of defines

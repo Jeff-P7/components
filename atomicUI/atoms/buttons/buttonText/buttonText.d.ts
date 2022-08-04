@@ -6,11 +6,11 @@ import type {
   IFont,
   TFontSize,
   ISpacing,
-} from '../../../../shared';
-import { IOpacity } from '../../../../shared/tailwindProps/opacity/opacity';
+} from '../../../../global';
+import { IOpacity } from '../../../../global/tailwindProps/opacity/opacity';
 import { TIconDictList } from '../../icon';
 import { TVariant, TSize } from './button.types';
-import { IBorder, IEffects } from '../../../../shared/tailwindProps';
+import { IBorder, IEffects } from '../../../../global/tailwindProps';
 
 export interface IButton
   extends ICommon,

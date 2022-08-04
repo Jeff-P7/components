@@ -17,11 +17,11 @@ import {
   verticalAlignToClass,
   whitespaceToClass,
   wordBreakToClass,
-} from '../../../../shared/tailwindProps';
+} from '../../../../global/tailwindProps';
 import TextBaseProps from './textBase.props';
-import { Message } from '../../../../shared';
-import { classesToString } from '../../../../shared/props/common';
-import { purgeEmptyProps } from '../../../../shared/utilities/functions';
+import { Message } from '../../../../global';
+import { classesToString } from '../../../../global/props/common';
+import { purgeEmptyProps } from '../../../../global/utilities/functions';
 import { Button } from '@mui/material';
 Button
 

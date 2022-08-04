@@ -18,11 +18,11 @@ import {
   verticalAlignToClass,
   whitespaceToClass,
   wordBreakToClass,
-} from '../../../shared/tailwindProps';
+} from '../../../global/tailwindProps';
 import TextProps from './text.props';
-import { Message } from '../../../shared';
-import { classesToString } from '../../../shared/props/common';
-import { purgeEmptyProps } from '../../../shared/utilities/functions';
+import { Message } from '../../../global';
+import { classesToString } from '../../../global/props/common';
+import { purgeEmptyProps } from '../../../global/utilities';
 
 type IProps = TText;
 

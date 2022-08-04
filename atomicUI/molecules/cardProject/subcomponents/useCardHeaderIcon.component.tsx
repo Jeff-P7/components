@@ -6,7 +6,7 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import classNames from 'classnames';
 import { bool } from 'prop-types';
-import { Log } from '../../../../utils';
+import { Log } from '../../../../utilsUI';
 import useToggle from '../../../../hooks/useToggle';
 
 type TCardHeaderIcon = { save?: boolean; notify?: boolean };

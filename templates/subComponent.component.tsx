@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 // import ITemplate from './template.d';
 import classNames from 'classnames';
-import { classesToString, purgeEmptyProps } from '../shared';
+import { classesToString, purgeEmptyProps } from '../global';
 import { Div, Text } from '../ui/atoms';
 
 interface IProps extends ITemplate {}

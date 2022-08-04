@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import type { IList} from './list.d';
 import ListProps from './list.props';
 import classNames from 'classnames';
-import { classesToString, purgeEmptyProps } from '../../../shared';
+import { classesToString, purgeEmptyProps } from '../../../global';
 import { Div, Text } from '../../../atomicUI/atoms';
 
 interface IProps extends IList {}

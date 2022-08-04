@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import IDivider from './divider';
 import DividerProps from './divider.props';
 import classNames from 'classnames';
-import { classesToString, marginToClass } from '../../../shared';
+import { classesToString, marginToClass } from '../../../global';
 
 interface IProps extends IDivider {}
 

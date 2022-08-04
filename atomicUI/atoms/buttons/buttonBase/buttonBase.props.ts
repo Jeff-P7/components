@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import IButton from './button';
-import { CommonProps } from '../../../../shared/props';
-import type { IPropDefines } from '../../../../shared';
+import { CommonProps } from '../../../../global/props';
+import type { IPropDefines } from '../../../../global';
 import { VariantTypes, SizeTypes } from './button.types';
-import { pickPropDefines } from '../../../../shared/utilities';
+import { pickPropDefines } from '../../../../global/utilities';
 import {
   BorderProps,
   EffectsProps,
@@ -12,7 +12,7 @@ import {
   FontProps,
   OpacityProps,
   TypographyProps,
-} from '../../../../shared/tailwindProps';
+} from '../../../../global/tailwindProps';
 
 interface IProps extends IPropDefines {
   type: { [key in keyof IButton]: any };

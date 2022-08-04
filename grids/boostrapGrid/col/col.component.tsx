@@ -3,7 +3,7 @@ import type ICol from './col';
 import ColProps from './col.props';
 import classNames from 'classnames';
 import { Div, IDiv } from '../../../atomicUI/atoms';
-import { classesToString, purgeEmptyProps } from '../../../shared';
+import { classesToString, purgeEmptyProps } from '../../../global';
 
 interface IProps extends ICol {}
 

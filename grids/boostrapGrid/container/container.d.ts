@@ -1,4 +1,4 @@
-import { IDiv } from '../../../ui/atoms';
+import { IDiv } from '../../../atomicUI/atoms';
 
 export interface IContainer extends IDiv {
   // breakpoint?: string;

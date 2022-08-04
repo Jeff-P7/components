@@ -1,6 +1,6 @@
 import type IButtonVal from './buttonVal';
 import { ButtonProps } from '../../button';
-import { IPropDefines } from '../../../../shared/global';
+import { IPropDefines } from '../../../../global/global';
 import { string } from 'prop-types';
 interface IProps extends IPropDefines {
   type: { [key in keyof IButtonVal]: any };

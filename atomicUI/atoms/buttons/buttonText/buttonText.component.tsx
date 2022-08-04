@@ -5,12 +5,12 @@ import classNames from 'classnames';
 import {
   fontColorBasedOnBgColor,
   purgeEmptyProps,
-} from '../../../../shared/utilities/functions';
+} from '../../../../global/utilities/functions';
 import { ButtonTypesDict } from './button.dict';
 import { default as Icon, IconDictTypes } from '../../icon';
 import Text from '../../text';
-import { Message } from '../../../../shared';
-import { classesToString } from '../../../../shared/props/common/common.functions';
+import { Message } from '../../../../global';
+import { classesToString } from '../../../../global/props/common/common.functions';
 import {
   backgroundColorToClass,
   backgroundOpacityToClass,
@@ -22,7 +22,7 @@ import {
   marginToClass,
   // paddingToClass,
   textColorToClass,
-} from '../../../../shared/tailwindProps';
+} from '../../../../global/tailwindProps';
 
 import type { IButton } from '../../button';
 

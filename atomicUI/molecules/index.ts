@@ -31,6 +31,10 @@ export * from './slider/slide';
 export { default as SliderCardProject } from './sliderCardProject';
 export * from './sliderCardProject';
 
+// export { default as SocialLinks } from './socialLinks';
+// export * from './socialLinks';
+
+
 // export * from './cards';
 // export * from './avatar';
 // export * from './carousels';

@@ -5,12 +5,12 @@ import {
   ColorProps,
   FontProps,
   OpacityProps,
-} from '../../../../shared';
-import type { IPropDefines } from '../../../../shared';
+} from '../../../../global';
+import type { IPropDefines } from '../../../../global';
 import { IconProps } from '../../icon';
 import { VariantTypes, SizeTypes } from './button.types';
-import { BorderProps, EffectsProps, ColorTypes } from '../../../../shared/tailwindProps';
-import { pickPropDefines } from '../../../../shared/utilities';
+import { BorderProps, EffectsProps, ColorTypes } from '../../../../global/tailwindProps';
+import { pickPropDefines } from '../../../../global/utilities';
 
 interface IProps extends IPropDefines {
   type: { [key in keyof IButton]: any };

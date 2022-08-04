@@ -4,7 +4,7 @@ import { default as Text, IText } from '../../atoms/text';
 import { default as Icon, IIcon } from '../../atoms/icon';
 import { Message } from '../../../global';
 // import { classesToString } from '../../../global/props/common';
-import { purgeEmptyProps } from '../../../global/shared/functions';
+import { purgeEmptyProps } from '../../../global/utilities';
 import type { default as TTextIcon } from './textIcon.d';
 import TextIconProps from './textIcon.props';
 import Div from '../../atoms/div';

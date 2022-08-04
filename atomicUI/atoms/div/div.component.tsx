@@ -1,11 +1,11 @@
 import React, { FC } from 'react';
 import IDiv from './div';
 import classNames from 'classnames';
-import { Tag } from '../../../utils';
+import { Tag } from '../../../utilsUI';
 import DivProps from './div.props';
-import { paddingToClass, marginToClass } from '../../../shared/tailwindProps';
+import { paddingToClass, marginToClass } from '../../../global/tailwindProps';
 
-// Global Component Values - Unique Color Generator ---------------------------
+// Global Component Values - Unique Color Generator ----------------------------
 
 const generatedColors: Array<string> = [];
 const randNumGen = (): string => Math.floor(Math.random() * 360).toString();

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import IDiv from './div';
-import { CommonProps } from '../../../shared';
-import type { IPropDefines } from '../../../shared';
+import { CommonProps } from '../../../global';
+import type { IPropDefines } from '../../../global';
 
 interface IProps extends IPropDefines {
   type: { [key in keyof IDiv]: any };

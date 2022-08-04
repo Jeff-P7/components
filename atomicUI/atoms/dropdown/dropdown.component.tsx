@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import IDropdown from './dropdown';
 import DropdownProps from './dropdown.props';
 import classNames from 'classnames';
-import { classesToString, purgeEmptyProps } from '../../../shared';
+import { classesToString, purgeEmptyProps } from '../../../global';
 import { Div, Text, Card } from '../..';
 import { DropdownButton, DropdownItem } from './subcomponents';
 

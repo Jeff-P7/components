@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 // import IDropdownItem from './dropdownItem.d';
 // import DropdownItemProps from './dropdownItem.props';
 import classNames from 'classnames';
-import { classesToString, purgeEmptyProps } from '../../../../shared';
+import { classesToString, purgeEmptyProps } from '../../../../global';
 import { Div, Text } from '../..';
 
 // interface IProps extends IDropdownItem {}

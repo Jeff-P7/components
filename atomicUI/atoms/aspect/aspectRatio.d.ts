@@ -1,4 +1,4 @@
-import type { ICommon } from '../../../shared';
+import type { ICommon } from '../../../global';
 
 export interface IAspectRatio extends ICommon {}
 

@@ -1,5 +1,5 @@
 import { string } from 'prop-types';
-import type { IPropDefines } from '../../../../shared/global';
+import type { IPropDefines } from '../../../../global/global';
 import { TextProps } from '../../text';
 import type ITextVal from './textVal';
 

@@ -14,7 +14,7 @@ import type ICard from '../../atoms/card/card';
 import { HeightDict } from '../../../global/tailwindProps/sizing/sizing.dict';
 import { heightToClass } from '../../../global/tailwindProps/sizing/sizing.functions';
 import { BorderWidthDict } from '../../../global/tailwindProps/borders/border/border.dict';
-import { removePastCharacter } from '../../../../utilities';
+import { removePastCharacter } from '../../../global/utilities';
 import { IImage } from '../../atoms/image/image';
 
 interface IProps extends ICardProject {}

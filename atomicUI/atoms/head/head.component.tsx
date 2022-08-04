@@ -9,12 +9,13 @@ interface IProps extends IHead {}
  * Head Component
  */
 export const Head: FC<IProps> = (props): JSX.Element => {
-  const { description, title } = props;
+  const { description, title, icon } = props;
 
   return (
     <NextHead>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <link rel="icon" href={icon} />
       <meta property="og:description" content={description} />
       <meta property="og:title" content={title} />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />

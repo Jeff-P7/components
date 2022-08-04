@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Row from './row.component';
 import RowProps from './row.props';
-import { propToArgTypes } from '../../../shared';
+import { propToArgTypes } from '../../../global';
 
 export default {
   title: 'Components/Grids/Bootstrap/Row',

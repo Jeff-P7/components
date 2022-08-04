@@ -1,4 +1,4 @@
-import { ICommons } from '../../../shared/global';
+import { ICommons } from '../../../global/global';
 
 export interface IDivider extends Omit<ICommons, 'padding'>{
   borderRadius?: number;

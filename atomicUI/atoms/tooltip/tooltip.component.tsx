@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import type { ITooltip } from './tooltip';
 import TooltipProps from './tooltip.props';
 import { default as MUITooltip } from '@mui/material/Tooltip';
-import { marginToClass } from '../../../shared';
+import { marginToClass } from '../../../global';
 import classNames from 'classnames';
 
 type IProps = ITooltip;

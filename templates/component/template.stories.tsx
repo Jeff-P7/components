@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Template from './template.component';
 import TemplateProps from './template.props';
-import { propToArgTypes } from '../../shared';
+import { propToArgTypes } from '../../global';
 
 //👇 This default export determines where your story goes in the story list
 export default {

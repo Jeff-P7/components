@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Icon from './icon.component';
 import IconProps from './icon.props';
-import { propToArgTypes } from '../../../shared';
+import { propToArgTypes } from '../../../global';
 
 export default {
   title: 'Components/Elements/Icons/Icon',

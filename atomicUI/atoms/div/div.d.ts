@@ -1,4 +1,4 @@
-import type { ICommon } from '../../../shared';
+import type { ICommon } from '../../../global';
 // type stringNumNoneType = string | number | 'none';
 
 export interface IDiv extends ICommon {

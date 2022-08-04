@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { IText } from './text';
-import { CommonProps } from '../../../../shared/props';
-import type { IPropDefines } from '../../../../shared';
-import { TypographyProps } from '../../../../shared/tailwindProps';
+import { CommonProps } from '../../../../global/props';
+import type { IPropDefines } from '../../../../global';
+import { TypographyProps } from '../../../../global/tailwindProps';
 import { VariantTypes } from './text.types';
 
 interface IProps extends IPropDefines {

@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Link from './link.component';
 import LinkProps from './link.props';
-import { propToArgTypes } from '../../../shared';
+import { propToArgTypes } from '../../../global';
 
 export default {
   title: 'Components/Elements/Links/Link',

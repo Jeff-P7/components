@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import IImage from './image';
-import type { IPropDefines } from '../../../shared';
-import { CommonProps, omitProps } from '../../../shared';
+import type { IPropDefines } from '../../../global';
+import { CommonProps, omitProps } from '../../../global';
 import { LayoutTypes, PlaceholderTypes } from './image.types';
-import { BorderProps, ObjectProps } from '../../../shared/tailwindProps';
-import { pickPropDefines } from '../../../shared/utilities/functions';
+import { BorderProps, ObjectProps } from '../../../global/tailwindProps';
+import { pickPropDefines } from '../../../global/utilities';
 
 interface IProps extends IPropDefines {
   type: { [key in keyof IImage]: any };

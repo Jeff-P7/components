@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import ButtonValProps from './buttonVal.props';
 import { default as Button, IButton } from '../../button';
 import type IButtonVal from './buttonVal';
-import { purgeEmptyProps } from '../../../../shared';
+import { purgeEmptyProps } from '../../../../global';
 
 type IProps = IButtonVal;
 

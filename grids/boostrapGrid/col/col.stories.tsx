@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Col from './col.component';
 import ColProps from './col.props';
-import { propToArgTypes } from '../../../shared';
+import { propToArgTypes } from '../../../global';
 
 export default {
   title: 'Components/Grids/Bootstrap/Col',

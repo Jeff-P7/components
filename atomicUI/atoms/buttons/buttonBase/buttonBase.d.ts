@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ICommon } from '../../../../shared/props';
+import type { ICommon } from '../../../../global/props';
 import type { TVariant, TSize } from './button.types';
 import type {
   IBorder,
@@ -7,7 +7,7 @@ import type {
   IOpacity,
   ITypography,
   TColor,
-} from '../../../../shared/tailwindProps';
+} from '../../../../global/tailwindProps';
 
 export interface IButton
   extends ICommon,

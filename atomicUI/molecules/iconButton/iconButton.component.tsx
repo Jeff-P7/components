@@ -6,8 +6,7 @@ import IconButtonProps from './iconButton.props';
 import { paddingToClass, marginToClass } from '../../../global';
 import { default as Icon, IIcon } from '../../atoms/icon';
 import { default as Button, TButton } from '../../atoms/button';
-import { purgeEmptyProps } from '../../../global/shared';
-import { Message } from '../../../global';
+import { purgeEmptyProps, Message } from '../../../global/utilities';
 
 interface IProps extends IIconButton {}
 

@@ -3,10 +3,10 @@ import ICard from './card';
 import CardProps from './card.props';
 import classNames from 'classnames';
 import { Div } from '..';
-import { classesToString } from '../../../shared';
-import { paddingToClass } from '../../../shared/props';
+import { classesToString } from '../../../global';
+import { paddingToClass } from '../../../global/props';
 import { variantToClass } from './card.functions';
-import { borderStyleToClass } from '../../../shared/tailwindProps/borders/border/border.functions';
+import { borderStyleToClass } from '../../../global/tailwindProps/borders/border/border.functions';
 
 import {
   heightToClass,
@@ -16,7 +16,7 @@ import {
   borderWidthToClass,
   borderColorToClass,
   marginToClass,
-} from '../../../shared/tailwindProps';
+} from '../../../global/tailwindProps';
 
 interface IProps extends ICard {}
 

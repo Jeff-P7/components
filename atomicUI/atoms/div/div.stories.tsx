@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Div from './div.component';
 import DivProps from './div.props';
-import { propToArgTypes } from '../../../shared';
+import { propToArgTypes } from '../../../global';
 
 export default {
   title: 'Components/Elements/Div',

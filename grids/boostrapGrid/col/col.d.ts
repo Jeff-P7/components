@@ -1,4 +1,4 @@
-import type { IDiv } from '../../../ui/atoms';
+import type { IDiv } from '../../../atomicUI/atoms';
 import { ColSpec, TNumberRange, TAlignCol } from './col.types';
 
 export interface ICol extends IDiv {

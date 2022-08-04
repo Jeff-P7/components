@@ -1,6 +1,6 @@
 import { string, bool } from 'prop-types';
-import type { IPropDefines } from '../../../shared/global';
-import { CommonProps } from '../../../shared/props/common/common.props';
+import type { IPropDefines } from '../../../global/global';
+import { CommonProps } from '../../../global/props/common/common.props';
 import { ITooltip } from './tooltip';
 
 interface IProps extends IPropDefines {

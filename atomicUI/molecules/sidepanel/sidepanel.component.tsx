@@ -4,7 +4,7 @@ import SidepanelProps from './sidepanel.props';
 import classNames from 'classnames';
 import { classesToString, purgeEmptyProps, textToSlug } from '../../../global';
 import { Div, Text, Link, Button, Card } from '../../atoms';
-import PagePath from '../../../../utilities/pagePath';
+import { PagePath } from '../../../../../utilities';
 import { useRouter } from 'next/router';
 import { ButtonIcon, LinkButton, LinkButtonIcon } from '../../molecules';
 

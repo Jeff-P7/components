@@ -1,15 +1,15 @@
 import ICardCommon from '../../molecules/cards/cardCommon';
-import { ICommon } from '../../../shared/props/common/common';
-import { IBorder } from '../../../shared/tailwindProps/borders/border/border';
+import { ICommon } from '../../../global/props/common/common';
+import { IBorder } from '../../../global/tailwindProps/borders/border/border';
 import { TBoxShadow, TVariantCard } from './card.types';
-import { TSizingNumber } from '../../../shared/tailwindProps/sizing/sizing.types';
+import { TSizingNumber } from '../../../global/tailwindProps/sizing/sizing.types';
 import {
   ISizing,
   THeight,
   IBorder,
   IColor,
   IEffects,
-} from '../../../shared/tailwindProps';
+} from '../../../global/tailwindProps';
 
 export interface ICard
   extends ICommon,

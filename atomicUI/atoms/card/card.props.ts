@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import ICard from './card';
-import type { IPropDefines } from '../../../shared';
+import type { IPropDefines } from '../../../global';
 import {
   SizingProps,
   BorderProps,
   ColorProps,
   EffectsProps,
-} from '../../../shared/tailwindProps';
-import { CommonProps } from '../../../shared/props/common/common.props';
-import { pickPropDefines } from '../../../shared/utilities/functions';
+} from '../../../global/tailwindProps';
+import { CommonProps } from '../../../global/props/common/common.props';
+import { pickPropDefines } from '../../../global/utilities';
 import { VariantCardTypes } from '../../molecules/cards/cardCommon.types';
 import { boolean } from 'yup/lib/locale';
 

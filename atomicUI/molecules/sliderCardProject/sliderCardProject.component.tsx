@@ -8,7 +8,7 @@ import { Slider } from '../slider/slider.component';
 import { Slide } from '../slider/slide/slide.component';
 import { default as CardProject } from '../cardProject';
 import Faker from 'faker';
-import { range } from '../../../../utilities';
+import { arrayGen } from '../../../global/utilities';
 
 interface IProps extends ISliderCardProject {}
 
@@ -42,7 +42,7 @@ export const SliderCardProject: FC<IProps> = (props): JSX.Element => {
 
   return (
     <Slider padding="y-7" perView={5}>
-      {range(1, 10, 1).map((item: {}, index: number) => (
+      {arrayGen(1, 10, 1).map((item: {}, index: number) => (
         <Slide key={index}>
           {/* <CardProject {...item} /> */}
           <CardProject

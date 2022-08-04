@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import IHead from './head';
-import type { IPropDefines } from '../../../shared';
+import type { IPropDefines } from '../../../global';
 
 interface IProps extends IPropDefines {
   type: { [key in keyof IHead]: any };
@@ -25,14 +25,17 @@ export const HeadProps: IProps = {
   type: {
     title: string,
     description: string,
+    icon: string,
   },
   default: {
     title: '',
     description: '',
+    icon: ''
   },
   argType: {
     title: 'text',
     description: 'text',
+    icon: 'text'
   },
 };
 

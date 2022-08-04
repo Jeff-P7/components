@@ -4,8 +4,8 @@ import IconProps from './icon.props';
 import classNames from 'classnames';
 import { IconContext } from 'react-icons';
 import { IconDict, IconDictTypes } from './icon.dict';
-import { paddingToClass, marginToClass } from '../../../shared';
-import { classesToString } from '../../../shared/props/common';
+import { paddingToClass, marginToClass } from '../../../global';
+import { classesToString } from '../../../global/props/common';
 import { default as Div } from '../div';
 
 interface IProps extends IIcon {}

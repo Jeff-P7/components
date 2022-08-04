@@ -2,17 +2,17 @@ import React, { FC } from 'react';
 import { IImage } from './image';
 import ImageProps from './image.props';
 import { default as NextImage, ImageLoaderProps } from 'next/image';
-import { classesToString } from '../../../shared';
+import { classesToString } from '../../../global';
 import classNames from 'classnames';
 import {
   borderRadiusToClass,
   objectFitToClass,
-} from '../../../shared/tailwindProps';
+} from '../../../global/tailwindProps';
 import {
   removePastCharacter,
   getPastCharacter,
   countNumOfCharacter,
-} from '../../../../utilities/utilities';
+} from '../../../global/utilities';
 
 interface IProps extends IImage {}
 

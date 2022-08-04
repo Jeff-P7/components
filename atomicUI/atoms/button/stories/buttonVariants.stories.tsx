@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Button from '../button.component';
 import ButtonProps from '../button.props';
-import { propToArgTypes } from '../../../../shared';
+import { propToArgTypes } from '../../../../global';
 
 export default {
   title: 'Components/Elements/Buttons/Button/Variants',

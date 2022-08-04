@@ -3,7 +3,7 @@ import { TButton } from './button';
 import ButtonProps from './button.props';
 import classNames from 'classnames';
 import { ButtonTypesDict } from './button.dict';
-import { classesToString } from '../../../shared/props/common/common.functions';
+import { classesToString } from '../../../global/props/common/common.functions';
 import {
   backgroundColorToClass,
   backgroundOpacityToClass,
@@ -17,7 +17,7 @@ import {
   // paddingToClass,
   textColorToClass,
   fontSizeToClass,
-} from '../../../shared/tailwindProps';
+} from '../../../global/tailwindProps';
 
 type IProps = TButton;
 

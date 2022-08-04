@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import type { ITextVal } from './textVal';
 import TextValProps from './textVal.props';
 import { default as Text } from '../../text';
-import { purgeEmptyProps } from '../../../../shared/utilities/functions';
+import { purgeEmptyProps } from '../../../../global/utilities/functions';
 
 type IProps = ITextVal;
 

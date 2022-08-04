@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import IContainer from './container';
-import { IPropDefines } from '../../../shared';
+import { IPropDefines } from '../../../global';
 import { DivProps } from '../../../atomicUI/atoms';
 
 interface IProps extends IPropDefines {

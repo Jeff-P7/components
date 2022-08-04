@@ -2,12 +2,12 @@ import React, { FC } from 'react';
 import { IButtonBaseChildren, IButtonBaseValue } from './buttonBase';
 import ButtonBaseProps from './buttonBase.props';
 import classNames from 'classnames';
-import { fontColorBasedOnBgColor } from '../../../../shared/utilities/functions';
+import { fontColorBasedOnBgColor } from '../../../../global/utilities/functions';
 import { ButtonBaseTypesDict } from './buttonBase.dict';
 import { default as Icon, IconDictTypes } from '../../icon';
 import Text from '../../text';
-import { Message } from '../../../../shared';
-import { classesToString } from '../../../../shared/props/common/common.functions';
+import { Message } from '../../../../global';
+import { classesToString } from '../../../../global/props/common/common.functions';
 import {
   backgroundColorToClass,
   backgroundOpacityToClass,
@@ -19,7 +19,7 @@ import {
   marginToClass,
   // paddingToClass,
   textColorToClass,
-} from '../../../../shared/tailwindProps';
+} from '../../../../global/tailwindProps';
 
 type IProps = IButtonBase;
 

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import ILink from './link';
-import type { IPropDefines } from '../../../shared';
-import { CommonProps, pickProps, FontProps } from '../../../shared';
+import type { IPropDefines } from '../../../global';
+import { CommonProps, pickProps, FontProps } from '../../../global';
 import { ButtonProps } from '../button';
 
 interface IProps extends IPropDefines {

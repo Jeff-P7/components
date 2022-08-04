@@ -3,7 +3,7 @@ import { IRow } from './row';
 import { Div, IDiv } from '../../../atomicUI/atoms';
 import classNames from 'classnames';
 import RowProps from './row.props';
-import { purgeEmptyProps, classesToString } from '../../../shared';
+import { purgeEmptyProps, classesToString } from '../../../global';
 
 interface IProps extends IRow {}
 

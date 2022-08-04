@@ -2,9 +2,9 @@ import React, { FC } from 'react';
 // import IDropdownButton from './dropdownButton.d';
 // import DropdownButtonProps from './dropdownButton.props';
 import classNames from 'classnames';
-import { classesToString, purgeEmptyProps } from '../../../../shared';
+import { classesToString, purgeEmptyProps } from '../../../../global';
 import { Div, Text, Button } from '../..';
-import { ICommon } from '../../../../shared/props/common/common';
+import { ICommon } from '../../../../global/props/common/common';
 
 interface IProps extends ICommon {
   value: string;

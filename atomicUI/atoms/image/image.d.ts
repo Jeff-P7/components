@@ -1,7 +1,7 @@
-import { ICommons } from '../../../shared';
+import { ICommons } from '../../../global';
 import { TLayout, TPlaceholder } from './image.types';
-import { TBorderRadius } from '../../../shared/tailwindProps/borders/border/border.types';
-import { IObject } from '../../../shared/tailwindProps/layout/object/object';
+import { TBorderRadius } from '../../../global/tailwindProps/borders/border/border.types';
+import { IObject } from '../../../global/tailwindProps/layout/object/object';
 import type { LayoutValue } from 'next/image';
 export interface IImage
   extends Omit<ICommons, 'children'>,

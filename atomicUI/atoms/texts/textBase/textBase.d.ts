@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ICommon, TColor, TFontSize, TFontWeight } from '../../../../shared';
+import type { ICommon, TColor, TFontSize, TFontWeight } from '../../../../global';
 import ICardCommons from '../../ui/cards/cardCommon';
 import type {
   ITypography,

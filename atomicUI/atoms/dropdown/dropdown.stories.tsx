@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Dropdown from './dropdown.component';
 import DropdownProps from './dropdown.props';
-import { propToArgTypes } from '../../../shared';
+import { propToArgTypes } from '../../../global';
 
 //👇 This default export determines where your story goes in the story list
 export default {

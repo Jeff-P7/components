@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Container from './container.component';
-import { propToArgTypes } from '../../../shared';
+import { propToArgTypes } from '../../../global';
 import ContainerProps from './container.props';
 
 export default {

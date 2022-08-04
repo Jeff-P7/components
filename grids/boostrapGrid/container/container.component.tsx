@@ -4,7 +4,7 @@ import containerProps from './container.props';
 import { Div, IDiv } from '../../../atomicUI/atoms';
 import classNames from 'classnames';
 // import { Tag } from '../../../util';
-import { classesToString, purgeEmptyProps } from '../../../shared';
+import { classesToString, purgeEmptyProps } from '../../../global';
 
 interface IProps extends IContainer {}
 

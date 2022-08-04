@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import IDivider from './divider';
-import { CommonProps, omitProps } from '../../../shared';
+import { CommonProps, omitProps } from '../../../global';
 
 interface IProps {
   type: { [key in keyof IDivider]: any };

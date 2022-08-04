@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import { default as NextLink } from 'next/link';
 import Button from '../button';
 import Text from '../text';
-import { Message, classesToString } from '../../../shared';
+import { Message, classesToString } from '../../../global';
 
 type IProps = ILinkChildren | ILinkValue;
 

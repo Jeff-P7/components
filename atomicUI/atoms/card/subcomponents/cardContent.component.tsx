@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 // import ICardContent from './CardContent.d';
 // import CardContentProps from './CardContent.props';
 import classNames from 'classnames';
-import { classesToString, purgeEmptyProps } from '../../../../shared';
+import { classesToString, purgeEmptyProps } from '../../../../global';
 import { Div, Text, Image } from '../..';
 import type { IDiv } from '../../div';
 import PropTypes from 'prop-types';

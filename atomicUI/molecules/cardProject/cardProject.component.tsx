@@ -29,7 +29,7 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import { default as TextIcon } from '../textIcon';
 import * as CSS from 'csstype';
 
-import { Log } from '../../../utils';
+import { Log } from '../../../utilsUI';
 
 import { useCardHeaderIcon } from './subcomponents/useCardHeaderIcon.component';
 

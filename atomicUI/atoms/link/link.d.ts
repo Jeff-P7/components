@@ -1,4 +1,4 @@
-import type { ICommon, TColor, TFontSize } from '../../../shared';
+import type { ICommon, TColor, TFontSize } from '../../../global';
 import type IButton from '../button';
 import { VariantTypes, TVariant } from '../button';
 
